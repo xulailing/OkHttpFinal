@@ -32,6 +32,7 @@ public class BaseHttpRequestCallback<T> {
     public static final int ERROR_RESPONSE_DATA_PARSE_EXCEPTION = 1002;
     public static final int ERROR_RESPONSE_UNKNOWN = 1003;
 //    public static final int ERROR_RESPONSE_TIMEOUT = 1004;
+    private  int x=0;
 
     protected Type type;
     protected Headers headers;
